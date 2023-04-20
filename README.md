@@ -2,33 +2,23 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+The goal was an efficient text editor in the browser that could work offline and be capable of working on all browsers. The purpose of this project was to utilize PWA functions in the making of this project. Using IndexDB, Workbox, and Webpacks for proper PWA functioning has been a learning experience to say the least, but it wasn't as bad as I thought, but I feel I need to spend some more time with PWA to get an even better grasp because I feel like I spent way more time behind the scenes than I wanted to. The site was successfully deployed on Heroku and you can find the link below.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+`npm install`
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+First you run `npm run build`, then you run `npm start`. After that you follow the port and it will take you to the Home Page.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+This is the Home Page. All you need to do is hit install bringing up a pop up and then when you click the install option it will be installed.
 
-![alt text](assets/images/screenshot.png)
+![image](https://user-images.githubusercontent.com/115208733/233246909-b80862a4-6c47-4fd1-8822-2b73910c93dd.png)
+
+## Deployed Application
+
+https://stark-taiga-58984.herokuapp.com/
 
 ## Credits
 
